@@ -1,7 +1,7 @@
-
 body {
     font-family: Arial;
     background-color: whitesmoke;
+    
     
 }
 
@@ -10,20 +10,25 @@ body {
     display: flex;
     justify-content: center;
 }
-.container {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    gap: 80px;
-    
-}
-.card {
-   width: 420px;
-   height: 315px;
-   
+
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    gap:50px;
+    justify-content: center;
 }
 
-.card-title {
+a{
     display: flex;
     justify-content: center;
-    
 }
+
+.card {
+   width: 420;
+   height: 315;
+  
+}
+
+
+  
