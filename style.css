@@ -1,8 +1,6 @@
 body {
     font-family: Arial;
-    background-color: whitesmoke;
-    
-    
+    background-color: rgb(191, 191, 191);
 }
 
 .logo {
@@ -22,6 +20,9 @@ body {
 a{
     display: flex;
     justify-content: center;
+    font-family: Arial;
+    text-decoration: none;
+    color: blueviolet;
 }
 
 .card {
