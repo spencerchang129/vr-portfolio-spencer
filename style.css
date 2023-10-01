@@ -1,6 +1,6 @@
 body {
     font-family: Arial;
-    background-color: rgb(191, 191, 191);
+    background-color: rgb(133, 125, 125);
 }
 
 .logo {
@@ -22,7 +22,7 @@ a{
     justify-content: center;
     font-family: Arial;
     text-decoration: none;
-    color: blueviolet;
+    color: rgb(70, 1, 134);
 }
 
 .card {
@@ -30,6 +30,9 @@ a{
    height: 315;
   
 }
-
+h4 {
+    display: flex;
+    justify-content: center;
+}
 
   
